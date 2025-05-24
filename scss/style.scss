@@ -1,13 +1,10 @@
-@import "theme/variables";
-@import "theme/mixins";
-@import "theme/reset";
-@import "theme/header";
-@import "theme/responsive";
-@import "theme/banner";
-@import "theme/section-intro";
-@import "theme/home";
-@import "theme/blog";
-@import "theme/btn";
-@import "theme/contact";
-@import "theme/footer";
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
 
+/* Base */
+@import "site-base";
+/* Navbar */
+@import "site-navbar";
+/* Blocks */
+@import "site-blocks";
